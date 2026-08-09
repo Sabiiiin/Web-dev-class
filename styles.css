@@ -1,0 +1,30 @@
+/*CSS Reset*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.facebook {
+    padding: 8px 16px 8px 14px;
+    margin: 32px;
+    background-color: #0c65e0;
+    color: white;
+    text-decoration: none;
+}
+
+.google {
+    padding: 12px 24px;
+    margin: 32px;
+    background-color: rgb(4, 111, 13);
+    color: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    text-decoration: none;
+} 
+.youtube {
+    padding: 12px 24px;
+    margin: 32px;
+    background-color: rgb(184, 7, 7);
+    color: white;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
