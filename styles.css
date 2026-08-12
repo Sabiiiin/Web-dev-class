@@ -1,30 +1,56 @@
-/*CSS Reset*/
-*{
-    box-sizing: border-box;
+body {
     margin: 0;
-    padding: 0;
-}
-.facebook {
-    padding: 8px 16px 8px 14px;
-    margin: 32px;
-    background-color: #0c65e0;
-    color: white;
-    text-decoration: none;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #dff6ff, #ffffff);
 }
 
-.google {
-    padding: 12px 24px;
-    margin: 32px;
-    background-color: rgb(4, 111, 13);
-    color: rgb(255, 255, 255);
-    border: 1px solid #ccc;
-    text-decoration: none;
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    text-align: justify;
+}
+
+h1 {
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #0b4f6c;
+}
+
+.annapurna-image {
+    display: block;
+    margin: auto;
+    width: 75%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s;
+}
+
+.annapurna-image:hover {
+    transform: scale(1.03);
+}
+
+p {
+    margin-top: 25px;
+    font-size: 19px;
+    line-height: 1.8;
+    color: #333;
 } 
-.youtube {
-    padding: 12px 24px;
-    margin: 32px;
-    background-color: rgb(184, 7, 7);
-    color: white;
-    border: 1px solid #ccc;
-    text-decoration: none;
+.image-container {
+    display: flex;
+    gap: 10px; 
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+img {
+    height: 200px;
+    width: 28%;
+    object-fit: cover;
 }
